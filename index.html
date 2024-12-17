@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevelopedOne</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Fullstack Java first</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Equipos</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Equipos Favoritos</h2>
+<!--mejorar el tema de la imagen y simplicar la grafica-->
+        
+        <table>
+            <tr>
+                <th>Equipo</th>
+                <th>Posición</th>
+                <th>Puntos</th>
+            </tr>
+            <tr>
+                <td>Equipo 1</td>
+                <td>1</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Equipo 2</td>
+                <td>2</td>
+                <td>25</td>
+            </tr>
+        </table>
+
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="equipo">Equipo Favorito:</label>
+            <select id="equipo" name="equipo">
+                <option value="equipo1">Equipo 1</option>
+                <option value="equipo2">Equipo 2</option>
+            </select>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
+
